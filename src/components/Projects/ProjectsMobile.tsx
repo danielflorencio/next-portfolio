@@ -3,9 +3,8 @@ import { projects } from '../../data/projects'
 export default function ProjectsMobile(){
     return(
         <div className="w-full mb-16 flex flex-col justify-center items-center">
-            {projects.map(project => (
-                <div className={project.direction === 'direct' ? 'my-12 w-4/5 h-fit flex flex-wrap' : 'flex-row-reverse my-12 w-4/5 h-fit flex flex-wrap'}>
-                    
+            {projects.map((project, index) => (
+                <div key={index} className={project.direction === 'direct' ? 'my-12 w-4/5 h-fit flex flex-wrap' : 'flex-row-reverse my-12 w-4/5 h-fit flex flex-wrap'}> 
                     <div className=''>
                         <img className="w-80 border border-solid rounded-lg shadow-2xl" src={project.imgSrc}></img>
                         <div className='flex mt-12'>

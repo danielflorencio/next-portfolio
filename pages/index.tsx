@@ -6,7 +6,6 @@ import SkillBlocks from '../src/components/SkillBlocks'
 import { IconContext } from 'react-icons'
 import ContactSection from '../src/components/Contact'
 import { useMediaQuery } from 'react-responsive'
-import ProjectsMobile from '../src/components/Projects/ProjectsMobile'
 import ProjectsDesktop from '../src/components/Projects/ProjectsDesktop'
 
 const Home: NextPage = () => {
@@ -62,7 +61,7 @@ const Home: NextPage = () => {
         </section>
         <section className='w-full text-center bg-slate-100'>
           <h2 className='text-4xl p-12 font-bold' id='projects'>Take a look at some of the projects I've made.</h2>
-          {isMediumScreen ? <ProjectsMobile/> : <ProjectsDesktop/>}
+          <ProjectsDesktop/>
         </section>
         <section className='w-full text-center'>
           <h2 className='text-3xl mt-12 font-bold' id='contact'>You are just a few clicks away from finding your team's newest Web Developer.</h2>
