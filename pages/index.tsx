@@ -1,34 +1,43 @@
 import {BsFillArrowDownCircleFill} from 'react-icons/bs'
+import {AiOutlineCode} from 'react-icons/ai'
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Projects from '../src/components/Projects'
 import SkillBlocks from '../src/components/SkillBlocks'
 import { IconContext } from 'react-icons'
+import ContactSection from '../src/components/Contact'
+import { useMediaQuery } from 'react-responsive'
+import ProjectsMobile from '../src/components/Projects/ProjectsMobile'
+import ProjectsDesktop from '../src/components/Projects/ProjectsDesktop'
 
 const Home: NextPage = () => {
+  const isSmallScreen = useMediaQuery({ query: '(max-width: 768px)' }); 
+  const isMediumScreen = useMediaQuery({ query: '(max-width: 976px' });
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Daniel React Developer</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <section className='bg-slate-100 flex justify-center pt-8'>
-          <nav className='bg-slate-200 w-4/6 h-24 flex border border-solid justify-between p-6 pr-14 rounded-3xl'>
-            <div className='ml-10 bg-black rounded-full w-14 h-14 text-white text-3xl flex justify-center items-center pb-2'>
-              {'</>'}
+        <section className='bg-slate-100 flex justify-center pt-4'>
+          <nav className=
+          {isSmallScreen ? ('bg-slate-200 w-11/12 h-16 flex border border-solid border-slate-300 justify-between items-center rounded-3xl') 
+          : ('bg-slate-200 w-4/5 h-16 flex border border-solid border-slate-300 justify-between items-center pr-14 rounded-3xl')}>
+            <div className='bg-black p-2 ml-6 rounded-full text-white text-3xl flex justify-center items-center'>
+              <AiOutlineCode/>
             </div>
-            <ul className='flex'>
-              <li className='mr-8 text-lg'><strong><a>Skills</a></strong></li>
-              <li className='mr-8 text-lg'><strong><a>Projects</a></strong></li>
-              <li className='mr-8 text-lg'><strong><a>Resume</a></strong></li>
+            <ul className='flex text-slate-800'>
+              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'} ><a href="#skills">Skills</a></li>
+              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a href="#projects">Projects</a></li>
+              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a href="/path/to/file.pdf" download="Resume.pdf">Resume</a></li>
+              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </section>
         <section className='flex w-full h-screen flex-1 flex-col items-center justify-center text-center bg-slate-100'>
           <h1 className="text-6xl font-bold">
-            Hi, I am{' '}
+            Hi, I'm{' '}
             <span className="text-blue-600">
               Daniel.
             </span>
@@ -37,35 +46,31 @@ const Home: NextPage = () => {
           <p className="mt-12 text-4xl">
             And your search for a React developer has just ended.
           </p>
-          {/* <p className='mt-28 text-1xl font-bold '>Scroll down to see my projects and the benefits you get by having me on your team.</p> */}
-          <p className='mt-28 text-1xl text-gray-700 '>Scroll down to see my projects and the benefits you get with me on your team.</p>
-          
+          <p className='mt-28 text-1xl text-gray-700 '>Scroll down to see my skills and projects.</p>
           <div className='mt-10 float'>
             <IconContext.Provider value={{size: '1.8rem'}}>
               <BsFillArrowDownCircleFill/>
             </IconContext.Provider>
           </div>
         </section>
-        <section className='w-full text-center'>
-          <h2 className='font-bold text-4xl mt-12'>These are the technologies i specialize in.</h2>
-          <h3 className='text-2xl mt-8 mb-20'>You're just a few clicks away from making them work for your company.</h3>
+        <section className='w-full text-center pb-20'>
+          <h2 className='font-bold text-4xl mt-12' id='skills'>These are the technologies I've been specializing in.</h2>
+          <h3 className='text-2xl mt-8 mb-20'>Everything you need to get your company's frontend back on track.</h3>
           <div className='flex justify-center items-center'>
             <SkillBlocks/>
           </div>
         </section>
         <section className='w-full text-center bg-slate-100'>
-          <h2 className=' text-4xl p-12 font-bold'>Take a look at some of the projects I've made.</h2>
-          <Projects/>
+          <h2 className='text-4xl p-12 font-bold' id='projects'>Take a look at some of the projects I've made.</h2>
+          {isMediumScreen ? <ProjectsMobile/> : <ProjectsDesktop/>}
         </section>
         <section className='w-full text-center'>
-          <h2 className=' text-4xl mt-12 font-bold'>Title</h2>
-          <form>
-            <text></text>
-          </form>
+          <h2 className='text-3xl mt-12 font-bold' id='contact'>You are just a few clicks away from finding your team's newest Web Developer.</h2>
+          <h3 className=' text-2xl mt-8'>Click either one of the icons in the first row to get in touch right now.</h3>
+          <ContactSection/>
         </section>
       </main>
     </div>
   )
 }
-
 export default Home
