@@ -7,10 +7,11 @@ import { IconContext } from 'react-icons'
 import ContactSection from '../src/components/Contact'
 import { useMediaQuery } from 'react-responsive'
 import ProjectsDesktop from '../src/components/Projects/ProjectsDesktop'
+import { FiExternalLink } from 'react-icons/fi'
+
 
 const Home: NextPage = () => {
   const isSmallScreen = useMediaQuery({ query: '(max-width: 768px)' }); 
-  const isMediumScreen = useMediaQuery({ query: '(max-width: 976px' });
   return (
     <div>
       <Head>
@@ -27,10 +28,10 @@ const Home: NextPage = () => {
               <AiOutlineCode/>
             </div>
             <ul className='flex text-slate-800'>
-              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'} ><a href="#skills">Skills</a></li>
-              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a href="#projects">Projects</a></li>
-              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a href="/path/to/file.pdf" download="Resume.pdf">Resume</a></li>
-              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a href="#contact">Contact</a></li>
+              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="#skills">Skills</a></li>
+              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="#projects">Projects</a></li>
+              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="/path/to/file.pdf" download="Resume.pdf">Contact</a></li>
+              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><span className='flex hover:text-sky-400 transition-colors duration-150'><a className="mr-2 " href="#contact">Resume</a><FiExternalLink/></span></li>
             </ul>
           </nav>
         </section>
