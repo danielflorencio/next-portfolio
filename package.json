@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "gh-pages -d .next",
     "start": "next start"
   },
   "dependencies": {
