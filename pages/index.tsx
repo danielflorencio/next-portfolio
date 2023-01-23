@@ -30,8 +30,8 @@ const Home: NextPage = () => {
             <ul className='flex text-slate-800'>
               <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="#skills">Skills</a></li>
               <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="#projects">Projects</a></li>
-              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="/path/to/file.pdf" download="Resume.pdf">Contact</a></li>
-              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><span className='flex hover:text-sky-400 transition-colors duration-150'><a className="mr-2 " href="#contact">Resume</a><FiExternalLink/></span></li>
+              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="#contact">Contact</a></li>
+              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><span className='flex hover:text-sky-400 transition-colors duration-150'><a className="mr-2 " href="https://drive.google.com/file/d/1XAPWULvjhLQAPUPlY5vTfH4WEBZEp1ND/view?usp=share_link">Resume</a><FiExternalLink/></span></li>
             </ul>
           </nav>
         </section>
