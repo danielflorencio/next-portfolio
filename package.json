@@ -1,5 +1,5 @@
 {
-  "homepage": "https://danielflorencio.github.io/portfolio",
+  "homepage": "https://danielflorencio.github.io/next-portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
