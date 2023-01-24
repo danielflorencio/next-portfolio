@@ -6,7 +6,7 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    colors:{
+    extend: {colors:{
       htmlIcon: '#fd982c',
       cssIcon: '#2196f3',
       jsIcon: '#f7df1e',
@@ -18,8 +18,7 @@ module.exports = {
       reduxIcon: "#7147b5",
       white: "#fff",
       black: "#000"
-    },
-    extend: {},
+    }},
   },
   plugins: [],
 }
