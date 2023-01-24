@@ -9,7 +9,6 @@ import { useMediaQuery } from 'react-responsive'
 import { FiExternalLink } from 'react-icons/fi'
 import Projects from '../src/components/Projects'
 
-
 const Home: NextPage = () => {
   const isSmallScreen = useMediaQuery({ query: '(max-width: 768px)' }); 
   return (
@@ -30,8 +29,8 @@ const Home: NextPage = () => {
             <ul className='flex text-slate-800'>
               <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="#skills">Skills</a></li>
               <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="#projects">Projects</a></li>
-              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="#contact">Contact</a></li>
-              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><span className='flex hover:text-sky-400 transition-colors duration-150'><a className="mr-2 " href="https://drive.google.com/file/d/1XAPWULvjhLQAPUPlY5vTfH4WEBZEp1ND/view?usp=share_link">Resume</a><FiExternalLink/></span></li>
+              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="#contact" >Contact</a></li>
+              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><span className='flex hover:text-sky-400 transition-colors duration-150'><a className="mr-2 " href="https://drive.google.com/file/d/1KB-gJxcTCpCg6ojEivJ0E1S7lW6X-0ep/view?usp=share_link">Resume</a><FiExternalLink/></span></li>
             </ul>
           </nav>
         </section>
