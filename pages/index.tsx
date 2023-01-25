@@ -16,6 +16,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Daniel React Developer</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
       </Head>
 
       <main>
