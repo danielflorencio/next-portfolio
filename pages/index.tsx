@@ -12,7 +12,7 @@ import Projects from '../src/components/Projects'
 const Home: NextPage = () => {
   const isSmallScreen = useMediaQuery({ query: '(max-width: 768px)' }); 
   return (
-    <div>
+    <div className='w-full'>
       <Head>
         <title>Daniel React Developer</title>
         <link rel="icon" href="/favicon.ico" />
