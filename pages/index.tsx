@@ -18,7 +18,7 @@ const Home: NextPage = () => {
       <main>
         <section className='bg-slate-100 flex justify-center pt-4 w-full'>
           <nav className='bg-slate-200 sm:w-11/12 lg:w-4/5 h-16 flex border border-solid border-slate-300 justify-between items-center rounded-3xl'>
-            <div className='bg-black p-2 ml-2 rounded-full text-white text-3xl flex justify-center items-center'>
+            <div className='bg-black p-2 sm:ml-2 md:ml-4 rounded-full text-white text-3xl flex justify-center items-center'>
               <AiOutlineCode/>
             </div>
             <ul className='flex text-slate-800 gap-3'>
@@ -30,14 +30,14 @@ const Home: NextPage = () => {
           </nav>
         </section>
         <section className='flex w-full h-screen flex-1 flex-col items-center justify-center text-center bg-slate-100'>
-          <h1 className="sm:text-5xl sm:px-2 text-6xl font-bold">
+          <h1 className="sm:text-5xl sm:px-2 md:px-0 md:text-6xl font-bold">
             Hi, I'm{' '}
             <span className="text-blue-600">
               Daniel.
             </span>
           </h1>
 
-          <p className="mt-12 sm:text-3xl sm:px-2 text-4xl">
+          <p className="mt-12 sm:text-3xl sm:px-2 md:text-4xl">
             And your search for a React developer has just ended.
           </p>
           <p className='mt-28 text-1xl text-gray-700 '>Scroll down to see my skills and projects.</p>
