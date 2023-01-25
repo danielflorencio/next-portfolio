@@ -18,20 +18,17 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
       </Head>
-
       <main>
-        <section className='bg-slate-100 flex justify-center pt-4'>
-          <nav className=
-          {isSmallScreen ? ('bg-slate-200 w-11/12 h-16 flex border border-solid border-slate-300 justify-between items-center rounded-3xl') 
-          : ('bg-slate-200 w-4/5 h-16 flex border border-solid border-slate-300 justify-between items-center pr-14 rounded-3xl')}>
+        <section className='bg-slate-100 flex justify-center pt-4 w-full'>
+          <nav className='bg-slate-200 sm:w-11/12 lg:w-4/5 h-16 flex border border-solid border-slate-300 justify-between items-center rounded-3xl'>
             <div className='bg-black p-2 ml-6 rounded-full text-white text-3xl flex justify-center items-center'>
               <AiOutlineCode/>
             </div>
-            <ul className='flex text-slate-800'>
-              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="#skills">Skills</a></li>
-              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="#projects">Projects</a></li>
-              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><a className='hover:text-sky-400 transition-colors duration-150' href="#contact" >Contact</a></li>
-              <li className={isSmallScreen ? 'mr-4 text-lg font-semibold' : 'mr-8 text-lg font-semibold'}><span className='flex hover:text-sky-400 transition-colors duration-150'><a className="mr-2 " href="https://drive.google.com/file/d/1KB-gJxcTCpCg6ojEivJ0E1S7lW6X-0ep/view?usp=share_link">Resume</a><FiExternalLink/></span></li>
+            <ul className='flex text-slate-800 gap-3'>
+              <li className=' pl-4 lg:mr-8 text-lg font-semibold'><a className='hover:text-sky-400 transition-colors duration-150' href="#skills">Skills</a></li>
+              <li className=' lg:mr-8 text-lg font-semibold'><a className='hover:text-sky-400 transition-colors duration-150' href="#projects">Projects</a></li>
+              <li className=' lg:mr-8 text-lg font-semibold'><a className='hover:text-sky-400 transition-colors duration-150' href="#contact" >Contact</a></li>
+              <li className=' lg:mr-8 text-lg font-semibold'><span className='flex pr-4 hover:text-sky-400 transition-colors duration-150'><a href="https://drive.google.com/file/d/1KB-gJxcTCpCg6ojEivJ0E1S7lW6X-0ep/view?usp=share_link">Resume</a><FiExternalLink/></span></li>
             </ul>
           </nav>
         </section>
