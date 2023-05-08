@@ -1,0 +1,884 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="w-full"
+  >
+    <main>
+      <section
+        class="bg-slate-100 flex justify-center pt-4 w-full"
+      >
+        <nav
+          class="bg-slate-200 sm:w-11/12 lg:w-4/5 h-16 flex border border-solid border-slate-300 justify-between items-center rounded-3xl"
+        >
+          <div
+            class="bg-black p-2 sm:ml-2 md:ml-4 rounded-full text-white text-3xl flex justify-center items-center"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M516 673c0 4.4 3.4 8 7.5 8h185c4.1 0 7.5-3.6 7.5-8v-48c0-4.4-3.4-8-7.5-8h-185c-4.1 0-7.5 3.6-7.5 8v48zm-194.9 6.1l192-161c3.8-3.2 3.8-9.1 0-12.3l-192-160.9A7.95 7.95 0 0 0 308 351v62.7c0 2.4 1 4.6 2.9 6.1L420.7 512l-109.8 92.2a8.1 8.1 0 0 0-2.9 6.1V673c0 6.8 7.9 10.5 13.1 6.1zM880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-40 728H184V184h656v656z"
+              />
+            </svg>
+          </div>
+          <ul
+            class="flex text-slate-800 gap-3"
+          >
+            <li
+              class=" pl-2 lg:mr-8 text-lg font-semibold"
+            >
+              <a
+                class="hover:text-sky-400 transition-colors duration-150"
+                href="#skills"
+              >
+                Skills
+              </a>
+            </li>
+            <li
+              class=" lg:mr-8 text-lg font-semibold"
+            >
+              <a
+                class="hover:text-sky-400 transition-colors duration-150"
+                href="#projects"
+              >
+                Projects
+              </a>
+            </li>
+            <li
+              class=" lg:mr-8 text-lg font-semibold"
+            >
+              <a
+                class="hover:text-sky-400 transition-colors duration-150"
+                href="#contact"
+              >
+                Contact
+              </a>
+            </li>
+            <li
+              class=" lg:mr-8 text-lg font-semibold"
+            >
+              <span
+                class="flex pr-2 hover:text-sky-400 transition-colors duration-150"
+              >
+                <a
+                  href="https://drive.google.com/file/d/1KB-gJxcTCpCg6ojEivJ0E1S7lW6X-0ep/view?usp=share_link"
+                >
+                  Resume
+                </a>
+                <svg
+                  fill="none"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  />
+                  <polyline
+                    points="15 3 21 3 21 9"
+                  />
+                  <line
+                    x1="10"
+                    x2="21"
+                    y1="14"
+                    y2="3"
+                  />
+                </svg>
+              </span>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section
+        class="flex w-full h-screen flex-1 flex-col items-center justify-center text-center bg-slate-100"
+      >
+        <h1
+          class="font-bold text-5xl px-2 sm:px-0 sm:text-6xl"
+        >
+          Hi, I'm
+           
+          <span
+            class="text-blue-600"
+          >
+            Daniel.
+          </span>
+        </h1>
+        <p
+          class="mt-12 text-3xl px-2 sm:text-4xl sm:px-0"
+        >
+          And your search for a React developer has just ended.
+        </p>
+        <p
+          class="mt-28 text-1xl text-gray-700 "
+        >
+          Scroll down to see my skills and projects.
+        </p>
+        <div
+          class="mt-10 float"
+        >
+          <svg
+            fill="currentColor"
+            height="1.8rem"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 16 16"
+            width="1.8rem"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"
+            />
+          </svg>
+        </div>
+      </section>
+      <section
+        class="w-full text-center pb-20"
+      >
+        <h2
+          class="font-bold text-4xl mt-12"
+          id="skills"
+        >
+          These are the technologies I've been specializing in.
+        </h2>
+        <h3
+          class="text-2xl mt-8 mb-20"
+        >
+          Everything you need to get your company's frontend back on track.
+        </h3>
+        <div
+          class="flex justify-center items-center"
+        >
+          <div
+            class="" w-11/12 flex justify-around gap-12 flex-wrap px-20""
+          >
+            <div
+              class="flex flex-col justify-center items-center w-36 h-36  border rounded-lg border-solid"
+            >
+              <svg
+                class="transition-colors duration-150 hover:text-htmlIcon"
+                fill="currentColor"
+                height="3.5rem"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 1024 1024"
+                width="3.5rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M145.2 96l66 746.6L512 928l299.6-85.4L878.9 96H145.2zm595 177.1l-4.8 47.2-1.7 19.5H382.3l8.2 94.2h335.1l-3.3 24.3-21.2 242.2-1.7 16.2-187 51.6v.3h-1.2l-.3.1v-.1h-.1l-188.6-52L310.8 572h91.1l6.5 73.2 102.4 27.7h.4l102-27.6 11.4-118.6H510.9v-.1H306l-22.8-253.5-1.7-24.3h460.3l-1.6 24.3z"
+                />
+              </svg>
+              <div
+                class="font-bold mt-2"
+              >
+                HTML
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center w-36 h-36  border rounded-lg border-solid"
+            >
+              <svg
+                class="transition-colors duration-150 hover:text-cssIcon"
+                fill="currentColor"
+                height="3.5rem"
+                stroke="currentColor"
+                stroke-width="0"
+                version="1.1"
+                viewBox="0 0 32 32"
+                width="3.5rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.017 21.044v0zM4.743 3.519l2.049 22.981 9.194 2.552 9.22-2.556 2.051-22.977h-22.514zM23 8.775l-0.693 7.767h-0l-0.48 5.359-0.042 0.476-5.781 1.603-5.773-1.603-0.395-4.426h2.829l0.201 2.248 3.142 0.847 0.008-0.002 0.002-0 3.134-0.846 0.329-3.655-6.579 0-0.056-0.633-0.129-1.429-0.067-0.756 7.081-0 0.258-2.886h-10.786l-0.056-0.634-0.129-1.429-0.067-0.756h14.118l-0.068 0.756z"
+                />
+              </svg>
+              <div
+                class="font-bold mt-2"
+              >
+                CSS
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center w-36 h-36  border rounded-lg border-solid"
+            >
+              <svg
+                class="transition-colors duration-150 hover:text-jsIcon"
+                fill="currentColor"
+                height="3.5rem"
+                role="img"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="3.5rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title />
+                <path
+                  d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"
+                />
+              </svg>
+              <div
+                class="font-bold mt-2"
+              >
+                JavaSCript
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center w-36 h-36  border rounded-lg border-solid"
+            >
+              <svg
+                class="transition-colors duration-150 hover:text-reactIcon"
+                fill="currentColor"
+                height="3.5rem"
+                stroke="currentColor"
+                stroke-width="0"
+                version="1.1"
+                viewBox="0 0 34 32"
+                width="3.5rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19.314 15.987c0 1.321-1.071 2.392-2.392 2.392s-2.392-1.071-2.392-2.392c0-1.321 1.071-2.392 2.392-2.392s2.392 1.071 2.392 2.392z"
+                />
+                <path
+                  d="M16.922 24.783c1.878 1.826 3.729 2.906 5.221 2.906 0.489 0 0.952-0.103 1.337-0.334 1.337-0.772 1.826-2.701 1.363-5.453-0.077-0.489-0.18-0.977-0.309-1.492 0.514-0.154 0.977-0.309 1.44-0.463 2.598-1.003 4.038-2.392 4.038-3.909 0-1.543-1.44-2.932-4.038-3.909-0.463-0.18-0.926-0.334-1.44-0.463 0.129-0.514 0.232-1.003 0.309-1.492 0.437-2.803-0.051-4.758-1.389-5.53-0.386-0.231-0.849-0.334-1.337-0.334-1.466 0-3.344 1.080-5.221 2.906-1.852-1.826-3.704-2.906-5.195-2.906-0.489 0-0.952 0.103-1.337 0.334-1.337 0.772-1.826 2.701-1.363 5.453 0.077 0.489 0.18 0.977 0.309 1.492-0.514 0.154-0.977 0.309-1.44 0.463-2.598 1.003-4.038 2.392-4.038 3.909 0 1.543 1.44 2.932 4.038 3.909 0.463 0.18 0.926 0.334 1.44 0.463-0.129 0.514-0.232 1.003-0.309 1.492-0.437 2.752 0.051 4.707 1.363 5.453 0.386 0.232 0.849 0.334 1.337 0.334 1.492 0.051 3.344-1.029 5.221-2.829v0zM15.481 21.311c0.463 0.026 0.952 0.026 1.44 0.026s0.977 0 1.44-0.026c-0.463 0.617-0.952 1.183-1.44 1.723-0.489-0.54-0.977-1.106-1.44-1.723zM12.292 18.662c0.257 0.437 0.489 0.849 0.772 1.26-0.797-0.103-1.543-0.232-2.263-0.386 0.232-0.694 0.489-1.415 0.797-2.135 0.206 0.411 0.437 0.849 0.694 1.26zM10.8 12.463c0.72-0.154 1.466-0.283 2.263-0.386-0.257 0.412-0.514 0.823-0.772 1.26s-0.489 0.849-0.694 1.286c-0.334-0.746-0.592-1.466-0.797-2.161zM12.215 15.987c0.334-0.694 0.694-1.389 1.106-2.083 0.386-0.669 0.823-1.337 1.26-2.006 0.772-0.051 1.543-0.077 2.341-0.077 0.823 0 1.595 0.026 2.341 0.077 0.463 0.669 0.874 1.337 1.26 2.006 0.412 0.694 0.772 1.389 1.106 2.083-0.334 0.694-0.694 1.389-1.106 2.083-0.386 0.669-0.823 1.337-1.26 2.006-0.772 0.051-1.543 0.077-2.341 0.077-0.823 0-1.595-0.026-2.341-0.077-0.463-0.669-0.874-1.337-1.26-2.006-0.412-0.695-0.772-1.389-1.106-2.083v0zM22.272 14.598l-0.694-1.286c-0.257-0.437-0.489-0.849-0.772-1.26 0.797 0.103 1.543 0.232 2.263 0.386-0.231 0.72-0.489 1.44-0.797 2.161v0zM22.272 17.376c0.309 0.72 0.566 1.44 0.797 2.135-0.72 0.154-1.466 0.283-2.263 0.386 0.257-0.412 0.514-0.823 0.772-1.26 0.232-0.386 0.463-0.823 0.694-1.26v0zM22.863 26.301c-0.206 0.129-0.463 0.18-0.746 0.18-1.26 0-2.829-1.029-4.372-2.572 0.746-0.797 1.466-1.698 2.186-2.701 1.209-0.103 2.366-0.283 3.447-0.54 0.129 0.463 0.206 0.926 0.283 1.389 0.36 2.186 0.077 3.755-0.797 4.244zM24.201 12.746c2.881 0.823 4.604 2.083 4.604 3.241 0 1.003-1.183 2.006-3.266 2.804-0.412 0.154-0.874 0.309-1.337 0.437-0.334-1.055-0.746-2.135-1.26-3.241 0.514-1.106 0.952-2.186 1.26-3.241v0zM22.143 5.493c0.283 0 0.514 0.051 0.746 0.18 0.849 0.489 1.157 2.032 0.797 4.244-0.077 0.437-0.18 0.9-0.283 1.389-1.080-0.232-2.238-0.412-3.447-0.54-0.694-1.003-1.44-1.903-2.186-2.701 1.543-1.518 3.112-2.572 4.372-2.572zM18.362 10.663c-0.463-0.026-0.952-0.026-1.44-0.026s-0.977 0-1.44 0.026c0.463-0.617 0.952-1.183 1.44-1.723 0.489 0.54 0.977 1.132 1.44 1.723v0zM10.98 5.673c0.206-0.129 0.463-0.18 0.746-0.18 1.26 0 2.829 1.029 4.372 2.572-0.746 0.797-1.466 1.697-2.186 2.701-1.209 0.103-2.366 0.283-3.447 0.54-0.129-0.463-0.206-0.926-0.283-1.389-0.36-2.186-0.077-3.729 0.797-4.244v0zM9.643 19.228c-2.881-0.823-4.604-2.083-4.604-3.241 0-1.003 1.183-2.006 3.266-2.803 0.412-0.154 0.874-0.309 1.337-0.437 0.334 1.055 0.746 2.135 1.26 3.241-0.514 1.106-0.952 2.212-1.26 3.241zM10.183 22.057c0.077-0.437 0.18-0.9 0.283-1.389 1.080 0.232 2.238 0.412 3.447 0.54 0.694 1.003 1.44 1.903 2.186 2.701-1.543 1.517-3.112 2.572-4.372 2.572-0.283 0-0.514-0.051-0.746-0.18-0.875-0.489-1.157-2.058-0.797-4.244z"
+                />
+              </svg>
+              <div
+                class="font-bold mt-2"
+              >
+                React
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center w-36 h-36  border rounded-lg border-solid"
+            >
+              <svg
+                class="transition-colors duration-150"
+                fill="currentColor"
+                height="3.5rem"
+                role="img"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="3.5rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title />
+                <path
+                  d="M11.5725 0c-.1763 0-.3098.0013-.3584.0067-.0516.0053-.2159.021-.3636.0328-3.4088.3073-6.6017 2.1463-8.624 4.9728C1.1004 6.584.3802 8.3666.1082 10.255c-.0962.659-.108.8537-.108 1.7474s.012 1.0884.108 1.7476c.652 4.506 3.8591 8.2919 8.2087 9.6945.7789.2511 1.6.4223 2.5337.5255.3636.04 1.9354.04 2.299 0 1.6117-.1783 2.9772-.577 4.3237-1.2643.2065-.1056.2464-.1337.2183-.1573-.0188-.0139-.8987-1.1938-1.9543-2.62l-1.919-2.592-2.4047-3.5583c-1.3231-1.9564-2.4117-3.556-2.4211-3.556-.0094-.0026-.0187 1.5787-.0235 3.509-.0067 3.3802-.0093 3.5162-.0516 3.596-.061.115-.108.1618-.2064.2134-.075.0374-.1408.0445-.495.0445h-.406l-.1078-.068a.4383.4383 0 01-.1572-.1712l-.0493-.1056.0053-4.703.0067-4.7054.0726-.0915c.0376-.0493.1174-.1125.1736-.143.0962-.047.1338-.0517.5396-.0517.4787 0 .5584.0187.6827.1547.0353.0377 1.3373 1.9987 2.895 4.3608a10760.433 10760.433 0 004.7344 7.1706l1.9002 2.8782.096-.0633c.8518-.5536 1.7525-1.3418 2.4657-2.1627 1.5179-1.7429 2.4963-3.868 2.8247-6.134.0961-.6591.1078-.854.1078-1.7475 0-.8937-.012-1.0884-.1078-1.7476-.6522-4.506-3.8592-8.2919-8.2087-9.6945-.7672-.2487-1.5836-.42-2.4985-.5232-.169-.0176-1.0835-.0366-1.6123-.037zm4.0685 7.217c.3473 0 .4082.0053.4857.047.1127.0562.204.1642.237.2767.0186.061.0234 1.3653.0186 4.3044l-.0067 4.2175-.7436-1.14-.7461-1.14v-3.066c0-1.982.0093-3.0963.0234-3.1502.0375-.1313.1196-.2346.2323-.2955.0961-.0494.1313-.054.4997-.054z"
+                />
+              </svg>
+              <div
+                class="font-bold mt-2"
+              >
+                Next Js
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center w-36 h-36  border rounded-lg border-solid"
+            >
+              <svg
+                class="transition-colors duration-150 hover:text-tsIcon"
+                fill="currentColor"
+                height="3.5rem"
+                role="img"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="3.5rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title />
+                <path
+                  d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361 5.093 5.093 0 0 0-.717-.26 5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416.47.197.892.407 1.266.628.374.222.695.473.963.753.268.279.472.598.614.957.142.359.214.776.214 1.253 0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085 4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164 5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09.249-.06.456-.144.623-.25.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089 2.12 2.12 0 0 0-.537-.5 5.597 5.597 0 0 0-.807-.444 27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405-.45-.553-.676-1.222-.676-2.005 0-.614.123-1.141.369-1.582.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629 7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"
+                />
+              </svg>
+              <div
+                class="font-bold mt-2"
+              >
+                TypeScript
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center w-36 h-36  border rounded-lg border-solid"
+            >
+              <svg
+                class="transition-colors duration-150 hover:text-reduxIcon"
+                fill="currentColor"
+                height="3.5rem"
+                role="img"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="3.5rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title />
+                <path
+                  d="M16.634 16.504c.87-.075 1.543-.84 1.5-1.754-.047-.914-.796-1.648-1.709-1.648h-.061a1.71 1.71 0 00-1.648 1.769c.03.479.226.869.494 1.153-1.048 2.038-2.621 3.536-5.005 4.795-1.603.838-3.296 1.154-4.944.93-1.378-.195-2.456-.81-3.116-1.799-.988-1.499-1.078-3.116-.255-4.734.6-1.17 1.499-2.023 2.099-2.443a9.96 9.96 0 01-.42-1.543C-.868 14.408-.416 18.752.932 20.805c1.004 1.498 3.057 2.456 5.304 2.456.6 0 1.23-.044 1.843-.194 3.897-.749 6.848-3.086 8.541-6.532zm5.348-3.746c-2.32-2.728-5.738-4.226-9.634-4.226h-.51c-.253-.554-.837-.899-1.498-.899h-.045c-.943 0-1.678.81-1.647 1.753.03.898.794 1.648 1.708 1.648h.074a1.69 1.69 0 001.499-1.049h.555c2.309 0 4.495.674 6.488 1.992 1.527 1.005 2.622 2.323 3.237 3.897.538 1.288.509 2.547-.045 3.597-.855 1.647-2.294 2.517-4.196 2.517-1.199 0-2.367-.375-2.967-.644-.36.298-.96.793-1.394 1.093 1.318.598 2.652.943 3.94.943 2.922 0 5.094-1.647 5.919-3.236.898-1.798.824-4.824-1.47-7.416zM6.49 17.042c.03.899.793 1.648 1.708 1.648h.06a1.688 1.688 0 001.648-1.768c0-.9-.779-1.647-1.693-1.647h-.06c-.06 0-.15 0-.226.029-1.243-2.098-1.768-4.347-1.572-6.772.12-1.828.72-3.417 1.797-4.735.9-1.124 2.593-1.68 3.747-1.708 3.236-.061 4.585 3.971 4.689 5.574l1.498.45C17.741 3.197 14.686.62 11.764.62 9.02.62 6.49 2.613 5.47 5.535 4.077 9.43 4.991 13.177 6.7 16.174c-.15.195-.24.539-.21.868z"
+                />
+              </svg>
+              <div
+                class="font-bold mt-2"
+              >
+                Redux Toolkit
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center w-36 h-36  border rounded-lg border-solid"
+            >
+              <svg
+                class="transition-colors duration-150 hover:text-white hover:bg-black rounded-full border-none"
+                fill="currentColor"
+                height="3.5rem"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 1024 1024"
+                width="3.5rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"
+                />
+              </svg>
+              <div
+                class="font-bold mt-2"
+              >
+                Git
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center w-36 h-36  border rounded-lg border-solid"
+            >
+              <svg
+                class="transition-colors duration-150 hover:text-bsIcon"
+                fill="currentColor"
+                height="3.5rem"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="3.5rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"
+                />
+                <path
+                  d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"
+                />
+              </svg>
+              <div
+                class="font-bold mt-2"
+              >
+                Bootstrap
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center w-36 h-36  border rounded-lg border-solid"
+            >
+              <svg
+                class="transition-colors duration-150 hover:text-sassIcon"
+                fill="currentColor"
+                height="3.5rem"
+                stroke="currentColor"
+                stroke-width="0"
+                version="1.1"
+                viewBox="0 0 32 32"
+                width="3.5rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.641 21.161c-0.109-0.911-0.578-1.618-1.286-2.172-0.82-0.641-1.78-0.905-2.803-0.947-0.834-0.034-1.65 0.090-2.437 0.376-0.224 0.081-0.444 0.177-0.67 0.268-0.030-0.055-0.062-0.107-0.088-0.162-0.232-0.474-0.512-0.927-0.573-1.47-0.044-0.386-0.098-0.772-0.006-1.153 0.088-0.367 0.204-0.728 0.312-1.091 0.056-0.187 0.017-0.291-0.161-0.375-0.062-0.029-0.129-0.055-0.197-0.065-0.438-0.063-0.869-0.027-1.293 0.096-0.15 0.044-0.259 0.128-0.292 0.294-0.019 0.095-0.058 0.186-0.084 0.28-0.111 0.391-0.189 0.789-0.368 1.161-0.449 0.934-0.96 1.832-1.485 2.724-0.057 0.096-0.116 0.191-0.188 0.308-0.184-0.385-0.38-0.73-0.44-1.136-0.067-0.458-0.12-0.915-0.006-1.37 0.085-0.339 0.196-0.672 0.298-1.006 0.049-0.159 0.026-0.242-0.118-0.326-0.073-0.042-0.155-0.080-0.237-0.092-0.454-0.067-0.901-0.032-1.338 0.11-0.136 0.044-0.207 0.132-0.249 0.272-0.122 0.413-0.226 0.836-0.397 1.229-0.694 1.59-1.407 3.172-2.12 4.753-0.149 0.33-0.323 0.649-0.491 0.97-0.043 0.082-0.104 0.153-0.157 0.23-0.043-0.050-0.059-0.085-0.059-0.119 0.001-0.203-0.023-0.413 0.016-0.609 0.117-0.594 0.252-1.186 0.395-1.775 0.117-0.486 0.254-0.968 0.385-1.452 0.044-0.162 0.045-0.313-0.072-0.449-0.195-0.228-0.603-0.278-0.845-0.102-0.026 0.019-0.057 0.032-0.107 0.061 0.009-0.077 0.014-0.125 0.021-0.173 0.051-0.37 0.061-0.738-0.040-1.103-0.127-0.454-0.45-0.715-0.921-0.701-0.22 0.007-0.45 0.044-0.653 0.124-0.855 0.335-1.512 0.928-2.071 1.642-0.051 0.065-0.118 0.124-0.189 0.163-0.723 0.401-1.449 0.797-2.174 1.195-0.271 0.148-0.542 0.297-0.807 0.442-0.216-0.207-0.413-0.421-0.637-0.603-0.682-0.556-1.375-1.098-2.061-1.648-0.608-0.487-1.198-0.995-1.649-1.64-0.336-0.48-0.552-1.005-0.572-1.599-0.026-0.756 0.188-1.447 0.573-2.091 0.493-0.823 1.164-1.483 1.903-2.082 0.781-0.633 1.626-1.17 2.502-1.66 1.225-0.686 2.486-1.293 3.837-1.694 1.386-0.411 2.791-0.646 4.241-0.482 0.57 0.064 1.123 0.195 1.632 0.474 0.389 0.213 0.708 0.492 0.857 0.929 0.146 0.43 0.142 0.865 0.040 1.301-0.206 0.883-0.69 1.612-1.299 2.263-0.998 1.067-2.216 1.793-3.588 2.273-0.791 0.277-1.605 0.451-2.441 0.521-0.682 0.057-1.35-0.003-1.996-0.241-0.428-0.157-0.8-0.398-1.1-0.747-0.054-0.063-0.122-0.13-0.222-0.072-0.098 0.057-0.115 0.151-0.082 0.245 0.055 0.157 0.105 0.319 0.191 0.459 0.214 0.351 0.527 0.606 0.871 0.825 0.661 0.42 1.399 0.561 2.165 0.594 1.162 0.050 2.296-0.123 3.413-0.435 1.596-0.445 2.983-1.231 4.096-2.471 0.927-1.032 1.588-2.198 1.73-3.605 0.069-0.687-0.004-1.36-0.326-1.986-0.349-0.679-0.903-1.147-1.566-1.494-0.964-0.506-2.006-0.705-3.081-0.763-0.359-0-0.718-0-1.077-0-1.303 0.063-2.562 0.337-3.786 0.782-0.926 0.337-1.835 0.717-2.717 1.157-1.921 0.96-3.71 2.108-5.179 3.699-0.732 0.793-1.352 1.663-1.708 2.693-0.104 0.302-0.168 0.622-0.243 0.934-0.006 0.026 0.023 0.051-0.041 0.077 0 0.147 0 0.293 0 0.44 0.064 0.113 0.071 0.225 0.1 0.338 0.189 0.733 0.578 1.363 1.060 1.937 0.687 0.818 1.518 1.476 2.38 2.096 0.747 0.537 1.505 1.062 2.255 1.595 0.129 0.091 0.248 0.197 0.388 0.309-0.12 0.065-0.221 0.122-0.325 0.175-0.99 0.502-1.942 1.065-2.82 1.747-0.529 0.411-1.041 0.848-1.402 1.418-0.581 0.918-0.787 1.896-0.354 2.94 0.127 0.305 0.32 0.569 0.592 0.763 0.088 0.063 0.187 0.126 0.29 0.15 0.264 0.062 0.534 0.103 0.802 0.152 0.253-0 0.505-0 0.758-0 0.839-0.075 1.602-0.362 2.291-0.838 1.078-0.744 1.804-1.741 2.117-3.022 0.227-0.93 0.236-1.862-0.031-2.788-0.025-0.086-0.056-0.17-0.089-0.253s-0.071-0.164-0.116-0.268c0.572-0.329 1.146-0.659 1.719-0.989 0.009 0.007 0.017 0.015 0.026 0.022-0.031 0.102-0.064 0.204-0.093 0.308-0.204 0.746-0.34 1.505-0.291 2.279 0.052 0.825 0.282 1.597 0.765 2.287 0.39 0.558 1.321 0.578 1.736 0.019 0.147-0.199 0.29-0.406 0.397-0.628 0.28-0.579 0.54-1.168 0.807-1.753 0.012-0.025 0.022-0.050 0.047-0.107-0.019 0.277-0.042 0.52-0.052 0.764-0.016 0.38 0.006 0.758 0.136 1.12 0.111 0.31 0.3 0.541 0.655 0.581 0.242 0.028 0.436-0.083 0.614-0.224 0.279-0.22 0.505-0.491 0.673-0.8 0.475-0.873 0.963-1.74 1.394-2.635 0.466-0.968 0.873-1.964 1.306-2.948 0.024-0.054 0.045-0.109 0.072-0.175 0.102 0.402 0.174 0.795 0.305 1.168 0.152 0.432 0.341 0.854 0.547 1.264 0.097 0.194 0.086 0.32-0.049 0.482-0.564 0.68-1.118 1.368-1.673 2.056-0.123 0.152-0.245 0.306-0.347 0.472-0.062 0.101-0.103 0.223-0.12 0.341-0.033 0.225 0.105 0.441 0.346 0.493 0.219 0.047 0.453 0.065 0.677 0.048 0.774-0.057 1.477-0.329 2.099-0.789 0.805-0.597 1.064-1.41 0.869-2.375-0.053-0.262-0.146-0.517-0.237-0.769-0.041-0.114-0.043-0.194 0.031-0.3 0.644-0.919 1.194-1.895 1.705-2.892 0.020-0.039 0.041-0.079 0.076-0.121 0.166 0.863 0.415 1.694 0.862 2.448-0.228 0.22-0.454 0.419-0.658 0.639-0.45 0.483-0.84 1.009-1.043 1.649-0.087 0.276-0.155 0.556-0.116 0.852 0.061 0.458 0.436 0.755 0.886 0.651 0.963-0.223 1.795-0.677 2.403-1.481 0.409-0.541 0.446-1.145 0.275-1.778-0.047-0.172-0.103-0.341-0.163-0.539 0.238-0.074 0.47-0.162 0.709-0.217 1.245-0.284 2.476-0.234 3.675 0.215 0.7 0.262 1.266 0.702 1.601 1.393 0.41 0.845 0.183 1.646-0.613 2.18-0.074 0.050-0.159 0.089-0.221 0.151-0.038 0.038-0.060 0.115-0.051 0.167 0.005 0.031 0.087 0.069 0.133 0.069 0.262-0.002 0.474-0.139 0.678-0.28 0.511-0.353 0.848-0.829 0.928-1.454 0.002-0.018-0.024-0.035 0.040-0.052 0-0.139 0-0.277 0-0.416-0.064-0.017-0.037-0.034-0.039-0.052zM7.286 22.851c-0.083 1.115-0.588 2.019-1.414 2.75-0.465 0.412-0.997 0.705-1.618 0.808-0.225 0.037-0.455 0.046-0.674-0.047-0.311-0.133-0.381-0.409-0.387-0.704-0.009-0.469 0.155-0.893 0.38-1.296 0.294-0.526 0.725-0.927 1.185-1.301 0.725-0.59 1.512-1.090 2.317-1.561 0.013-0.008 0.029-0.012 0.061-0.025 0.124 0.46 0.184 0.914 0.149 1.377zM13.576 18.006c-0.059 0.356-0.132 0.712-0.236 1.057-0.36 1.194-0.821 2.352-1.32 3.493-0.092 0.211-0.226 0.404-0.343 0.604-0.018 0.031-0.045 0.058-0.071 0.084-0.144 0.143-0.282 0.135-0.355-0.052-0.085-0.217-0.137-0.449-0.182-0.679-0.030-0.154-0.023-0.316-0.032-0.474 0.010-1.123 0.352-2.145 0.934-3.095 0.24-0.392 0.501-0.765 0.899-1.014 0.123-0.076 0.26-0.137 0.399-0.177 0.212-0.060 0.343 0.039 0.308 0.252zM17.867 23.473c0.514-0.6 1.027-1.199 1.542-1.801 0.064 0.669-1.072 2.004-1.542 1.801zM22.793 22.262c-0.109 0.062-0.228 0.108-0.34 0.165-0.102 0.053-0.136-0-0.139-0.088-0.002-0.060 0.007-0.122 0.023-0.18 0.208-0.735 0.591-1.361 1.162-1.871 0.008-0.008 0.021-0.011 0.040-0.021 0.271 0.758-0.042 1.592-0.747 1.995z"
+                />
+              </svg>
+              <div
+                class="font-bold mt-2"
+              >
+                Sass
+              </div>
+            </div>
+            <div
+              class="flex flex-col justify-center items-center w-36 h-36  border rounded-lg border-solid"
+            >
+              <svg
+                class="transition-colors duration-150 hover:text-tailwindIcon"
+                fill="currentColor"
+                height="3.5rem"
+                role="img"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="3.5rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title />
+                <path
+                  d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"
+                />
+              </svg>
+              <div
+                class="font-bold mt-2"
+              >
+                Tailwind Css
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="w-full text-center bg-slate-100"
+      >
+        <h2
+          class="text-4xl p-12 font-bold"
+          id="projects"
+        >
+          Take a look at some of the projects I've made.
+        </h2>
+        <div
+          class="w-full mb-16 flex flex-col justify-center items-center"
+        >
+          <div
+            class="my-12 w-4/5 h-fit flex flex-wrap justify-center"
+          >
+            <div
+              class="h-full flex justify-center items-center w-2/5"
+              style="min-width: 20rem;"
+            >
+              <img
+                class="w-80 border border-solid rounded-lg shadow-xl mb-8"
+                src="fire-screenshot.png"
+              />
+            </div>
+            <div
+              class=" w-3/5 max-md:w-full flex flex-col justify-between"
+            >
+              <div>
+                <div
+                  class="flex"
+                >
+                  <h3
+                    class="text-left py-3 text-2xl font-bold"
+                  >
+                    Personal Finance Web App
+                  </h3>
+                  <a
+                    class="hover:text-sky-400 transition-colors duration-150"
+                    href="https://danielflorencio.github.io/fire_advisor/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                      />
+                      <polyline
+                        points="15 3 21 3 21 9"
+                      />
+                      <line
+                        x1="10"
+                        x2="21"
+                        y1="14"
+                        y2="3"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <p
+                  class="text-left"
+                >
+                  This is Fire, a personal finance web application that helps people control their finances, take better financial decisions and retire as early as possible. This project has a handful of features all aimed towards one simple goal: making you get the best out of all of your money investments.
+                  <br />
+                  <br />
+                </p>
+                <p
+                  class="text-left"
+                >
+                  The app fetches data from external APIS in order to better inform the user of their preferred stocks real-time data whenever they need it.
+                  <br />
+                  <br />
+                </p>
+                <p
+                  class="text-left"
+                >
+                  It also helps them track all of their expenses, incomes, and will, in the future, use analytical data structures and algorithms to give insights on how to improve their spending, so they can accelerate their journey to financial independence.
+                  <br />
+                  <br />
+                </p>
+              </div>
+              <div
+                class="flex p-4 flex-wrap gap-2"
+              >
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  HTML
+                </div>
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  CSS
+                </div>
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  React
+                </div>
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  Redux
+                </div>
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  Bootstrap
+                </div>
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  TypeScript
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex-row-reverse my-12 w-4/5 h-fit flex flex-wrap justify-center"
+          >
+            <div
+              class="h-full flex justify-center items-center w-2/5"
+              style="min-width: 20rem;"
+            >
+              <img
+                class="w-80 border border-solid rounded-lg shadow-xl mb-8"
+                src="aos-screenshot.png"
+              />
+            </div>
+            <div
+              class=" w-3/5 max-md:w-full flex flex-col justify-between"
+            >
+              <div>
+                <div
+                  class="flex"
+                >
+                  <h3
+                    class="text-left py-3 text-2xl font-bold"
+                  >
+                    AOS - The Application Optimizing System
+                  </h3>
+                  <a
+                    class="hover:text-sky-400 transition-colors duration-150"
+                    href="https://danielflorencio.github.io/aos/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                      />
+                      <polyline
+                        points="15 3 21 3 21 9"
+                      />
+                      <line
+                        x1="10"
+                        x2="21"
+                        y1="14"
+                        y2="3"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <p
+                  class="text-left"
+                >
+                  A simple React application that helps software engineering professionals (and future professionals) track their efforts and prioritize their learning.
+                  <br />
+                  <br />
+                </p>
+                <p
+                  class="text-left"
+                >
+                  It helps them optimize their progress by analyzing their technical job skills and technical interview skills, so they know exactly what to focus and thus avoid procrastination and feeling lost.
+                  <br />
+                  <br />
+                </p>
+                <p
+                  class="text-left"
+                >
+                  It also has a Word-frequency analyzing system, so they can analyze job postings descriptions and find the most common used keywords for their specific roles and beat the ATS (Applicant Tracking System).
+                  <br />
+                  <br />
+                </p>
+              </div>
+              <div
+                class="flex p-4 flex-wrap gap-2"
+              >
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  HTML
+                </div>
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  CSS
+                </div>
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  React
+                </div>
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  TypeScript
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="my-12 w-4/5 h-fit flex flex-wrap justify-center"
+          >
+            <div
+              class="h-full flex justify-center items-center w-2/5"
+              style="min-width: 20rem;"
+            >
+              <img
+                class="w-80 border border-solid rounded-lg shadow-xl mb-8"
+                src="salus-screenshot.png"
+              />
+            </div>
+            <div
+              class=" w-3/5 max-md:w-full flex flex-col justify-between"
+            >
+              <div>
+                <div
+                  class="flex"
+                >
+                  <h3
+                    class="text-left py-3 text-2xl font-bold"
+                  >
+                    Digital Agency Website
+                  </h3>
+                  <a
+                    class="hover:text-sky-400 transition-colors duration-150"
+                    href="https://danielflorencio.github.io/rp-salusmidia/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                      />
+                      <polyline
+                        points="15 3 21 3 21 9"
+                      />
+                      <line
+                        x1="10"
+                        x2="21"
+                        y1="14"
+                        y2="3"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <p
+                  class="text-left"
+                >
+                  Built a Website with the goal of acquiring new customers for a marketing agency that focuses on healthcare clinics and doctors as their main target audience.
+                  <br />
+                  <br />
+                </p>
+                <p
+                  class="text-left"
+                >
+                  It is a fully responsive and conversion focused web page, where it’s unique goal is to generate meetings and finally sales.
+                  <br />
+                  <br />
+                </p>
+              </div>
+              <div
+                class="flex p-4 flex-wrap gap-2"
+              >
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  HTML
+                </div>
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  CSS
+                </div>
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  React
+                </div>
+                <div
+                  class="mr-4 border border-solid border-black w-fit h-8 p-2 flex justify-center items-center hover:text-white hover:bg-black transition-colors duration-150 rounded-lg"
+                >
+                  JavaScript
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="w-full text-center"
+      >
+        <h2
+          class="text-3xl mt-12 font-bold"
+          id="contact"
+        >
+          You are just a few clicks away from finding your team's newest Web Developer.
+        </h2>
+        <h3
+          class=" text-2xl mt-8"
+        >
+          Click either one of the icons in the first row to get in touch right now.
+        </h3>
+        <div
+          class="flex flex-col justify-center items-center"
+        >
+          <div
+            class="flex mt-12 gap-12"
+          >
+            <div>
+              <a
+                href="https://wa.me/55084996509076"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <svg
+                  fill="currentColor"
+                  height="3.5rem"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 448 512"
+                  width="3.5rem"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M224 122.8c-72.7 0-131.8 59.1-131.9 131.8 0 24.9 7 49.2 20.2 70.1l3.1 5-13.3 48.6 49.9-13.1 4.8 2.9c20.2 12 43.4 18.4 67.1 18.4h.1c72.6 0 133.3-59.1 133.3-131.8 0-35.2-15.2-68.3-40.1-93.2-25-25-58-38.7-93.2-38.7zm77.5 188.4c-3.3 9.3-19.1 17.7-26.7 18.8-12.6 1.9-22.4.9-47.5-9.9-39.7-17.2-65.7-57.2-67.7-59.8-2-2.6-16.2-21.5-16.2-41s10.2-29.1 13.9-33.1c3.6-4 7.9-5 10.6-5 2.6 0 5.3 0 7.6.1 2.4.1 5.7-.9 8.9 6.8 3.3 7.9 11.2 27.4 12.2 29.4s1.7 4.3.3 6.9c-7.6 15.2-15.7 14.6-11.6 21.6 15.3 26.3 30.6 35.4 53.9 47.1 4 2 6.3 1.7 8.6-1 2.3-2.6 9.9-11.6 12.5-15.5 2.6-4 5.3-3.3 8.9-2 3.6 1.3 23.1 10.9 27.1 12.9s6.6 3 7.6 4.6c.9 1.9.9 9.9-2.4 19.1zM400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM223.9 413.2c-26.6 0-52.7-6.7-75.8-19.3L64 416l22.5-82.2c-13.9-24-21.2-51.3-21.2-79.3C65.4 167.1 136.5 96 223.9 96c42.4 0 82.2 16.5 112.2 46.5 29.9 30 47.9 69.8 47.9 112.2 0 87.4-72.7 158.5-160.1 158.5z"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.linkedin.com/in/danolliver/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <svg
+                  fill="currentColor"
+                  height="3.5rem"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 1024 1024"
+                  width="3.5rem"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div
+              class="flex items-center"
+            >
+              <button>
+                <svg
+                  fill="currentColor"
+                  height="3.5rem"
+                  role="img"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="3.5rem"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title />
+                  <path
+                    d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div />
+          <div
+            class="mt-8 mb-20"
+          >
+            <a
+              href="https://github.com/danielflorencio"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                fill="currentColor"
+                height="3.5rem"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 1024 1024"
+                width="3.5rem"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</div>
+`;
