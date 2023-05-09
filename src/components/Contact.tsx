@@ -7,13 +7,16 @@ import { useState } from 'react'
 export default function ContactSection(){
     
     const [showMessage, setShowMessage] = useState(false);
+    const [message, setMessage] = useState(['My email contact has been copied to the clipboard. ', 'Now email me so we can start talking.']);
 
     const handleClick = async () => {
         try {
-          await navigator.clipboard.writeText('danielflorenciodev@gmail.com');
-          setShowMessage(true);
+            await navigator.clipboard.writeText('danielflorenciodev@gmail.com');
+            setShowMessage(true);
         } catch (err) {
-          console.error('Failed to copy text: ', err);
+            console.log('Failed to copy text: ', err);
+            setMessage(["Couldn't copy the email to the clipboard.", 'Talk to me at danielflorenciodev@gmail.com so we can chat :)'])
+            setShowMessage(true);
         }
     };
     
@@ -21,23 +24,23 @@ export default function ContactSection(){
         <div className='flex flex-col justify-center items-center'>
             <div className='flex mt-12 gap-12'>
                 <div>
-                    <a href='https://wa.me/55084996509076' target="_blank" rel="noopener noreferrer">
+                    <a id='whatsapp'  href='https://wa.me/55084996509076' target="_blank" rel="noopener noreferrer">
                         <IconContext.Provider value={{size: '3.5rem'}}>
                             <FaWhatsappSquare/>
                         </IconContext.Provider>
                     </a>
                 </div>
                 <div>
-                    <a href='https://www.linkedin.com/in/danolliver/' target="_blank" rel="noopener noreferrer">
+                    <a id='linkedin' href='https://www.linkedin.com/in/danolliver/' target="_blank" rel="noopener noreferrer">
                         <IconContext.Provider value={{size: '3.5rem'}}>
                             <AiFillLinkedin/>
                         </IconContext.Provider>
                     </a>
-                </div>
+                </div> 
                 <div className='flex items-center'>
-                    <button onClick={handleClick}>
+                    <button id='email' name='email' aria-label='email' onClick={handleClick}>
                         <IconContext.Provider value={{size: '3.5rem'}}>
-                            <SiGmail/>
+                            <SiGmail />
                         </IconContext.Provider>
                     </button>
                     
@@ -45,10 +48,10 @@ export default function ContactSection(){
             </div>
             <div>
             {showMessage && (
-                    <div className="mt-6 h-fit w-fit px-4 py-1 border-solid border-2 border-green-300 rounded bg-green-200 text-green-700">
-                    My email contact has been copied to the clipboard. <br/> Now email me so we can start talking.
-                    </div>
-                    )}
+                <div aria-label='message-container' data-testid='message-container-test' className="mt-6 h-fit w-fit px-4 py-1 border-solid border-2 border-green-300 rounded bg-green-200 text-green-700">
+                {message[0]}<br/> {message[1]}
+                </div>
+            )}
             </div>
             <div className='mt-8 mb-20'>
                 <a href='https://github.com/danielflorencio' target="_blank" rel="noopener noreferrer">

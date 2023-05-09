@@ -6,7 +6,7 @@ import {AiFillHtml5, AiFillGithub} from 'react-icons/ai'
 import { useMediaQuery } from 'react-responsive'
 
 // The first value in the array is block's icon, the second value is the block's title, the third value is the block's custom color.
-const skillBlocks = [
+export const skillBlocks = [
     [<AiFillHtml5 className='hover:text-htmlIcon'/>, 'HTML',], 
     [<DiCss3 className='hover:text-cssIcon'/>, 'CSS'],
     [<SiJavascript className='hover:text-jsIcon'/>, 'JavaSCript'],
