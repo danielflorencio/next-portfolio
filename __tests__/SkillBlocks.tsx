@@ -4,8 +4,6 @@ import { skillBlocks } from "../src/components/SkillBlocks";
 
 test('Renders the SkillBlocks section.', () => {
     render(<SkillBlocks/>)
-    // const { container } = render(<SkillBlocks/>)
-    // expect(container).toMatchSnapshot();
 })
 
 test('There are more than 8 skills listed.', () => {

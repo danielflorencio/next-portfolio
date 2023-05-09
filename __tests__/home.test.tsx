@@ -8,7 +8,7 @@ it('Renders the homepage.', () => {
 
 describe('App', () => {
 
-  const {getByText} = render(<Home/>)
+  render(<Home/>)
 
   it('should navigate to the Services section when Services link is clicked', () => {
     render(<Home />);
@@ -27,7 +27,6 @@ describe('App', () => {
   it('should navigate to the Contact section when Contact link is clicked', () => {
     render(<Home />);
     fireEvent.click(screen.getByText('Contact'));
-    // expect(screen.getByText("You are just a few clicks away from finding your team's newest Web Developer.")).toHaveTextContent();
-    expect(screen.getByText("You are just a few clicks away from finding your team's newest Web Developer.")).toBeVisible();;
+    expect(screen.getByText("You are just a few clicks away from finding your team's newest Web Developer.")).toBeInTheDocument();
   });
 });
