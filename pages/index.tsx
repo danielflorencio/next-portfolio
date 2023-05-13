@@ -7,6 +7,7 @@ import { IconContext } from 'react-icons'
 import ContactSection from '../src/components/Contact'
 import { FiExternalLink } from 'react-icons/fi'
 import Projects from '../src/components/Projects'
+import GithubInfo from '../src/components/GithubInfo'
 const Home: NextPage = () => {
   return (
     <div className='w-full'>
@@ -29,6 +30,7 @@ const Home: NextPage = () => {
             </ul>
           </nav>
         </section>
+        <GithubInfo/>
         <section className='flex w-full h-screen flex-1 flex-col items-center justify-center text-center bg-slate-100'>
           <h1 className="font-bold text-5xl px-2 sm:px-0 sm:text-6xl">
             Hi, I'm{' '}
