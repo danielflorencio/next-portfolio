@@ -1,6 +1,6 @@
 import {ApolloClient, InMemoryCache, ApolloProvider, HttpLink, from, gql, useQuery} from '@apollo/client'
 import {ErrorResponse, onError} from '@apollo/client/link/error'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 
@@ -28,18 +28,46 @@ import { useState } from 'react';
 // });
 
 const GET_COMMITS = gql`
-    query {
-        viewer {
-            login
+query {
+    viewer {
+      repositories(first: 100) {
+        totalCount
+        nodes {
+          name
+          defaultBranchRef {
+            target {
+              ... on Commit {
+                history {
+                  totalCount
+                }
+              }
+            }
+          }
         }
+      }
     }
+  }
+  
 `;
 
 export default function GithubInfo(){
 
     const {data} = useQuery(GET_COMMITS)
-    const [commits, setCommits] = useState();
+    const [commits, setCommits] = useState(0);
 
+    useEffect(() => {
+        let commitCount: number = 0;
+        if(data){
+            for(let i = 0; i < data.viewer.repositories.nodes.length; i++){
+                if(data.viewer.repositories.nodes[i].defaultBranchRef){
+                    commitCount = commitCount + Number(data.viewer.repositories.nodes[i].defaultBranchRef.target.history.totalCount)
+                }
+            }
+        }
+        setCommits(commitCount)
+    }, [data])
+
+    console.log('Commits: ', commits)
     console.log('GraphQL request data: ', data)
 
     return(
