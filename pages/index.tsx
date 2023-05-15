@@ -30,7 +30,6 @@ const Home: NextPage = () => {
             </ul>
           </nav>
         </section>
-        <GithubInfo/>
         <section className='flex w-full h-screen flex-1 flex-col items-center justify-center text-center bg-slate-100'>
           <h1 className="font-bold text-5xl px-2 sm:px-0 sm:text-6xl">
             Hi, I'm{' '}
@@ -60,7 +59,8 @@ const Home: NextPage = () => {
           <h2 className='text-4xl p-12 font-bold' id='projects'>Take a look at some of the projects I've made.</h2>
           <Projects/>
         </section>
-        <section className='w-full text-center'>
+        <GithubInfo/>
+        <section className='w-full text-center mt-32'>
           <h2 className='text-3xl mt-12 font-bold' id='contact'>You are just a few clicks away from finding your team's newest Web Developer.</h2>
           <h3 className=' text-2xl mt-8'>Click either one of the icons in the first row to get in touch right now.</h3>
           <ContactSection/>

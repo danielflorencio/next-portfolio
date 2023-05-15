@@ -11,7 +11,7 @@ export const skillBlocks = [
     [<DiCss3 className='hover:text-cssIcon'/>, 'CSS'],
     [<SiJavascript className='hover:text-jsIcon'/>, 'JavaSCript'],
     [<DiReact className='hover:text-reactIcon'/>, 'React'],
-    [<SiNextdotjs/>, 'Next Js'],
+    // [<SiNextdotjs/>, 'Next Js'],
     [<SiTypescript className='hover:text-tsIcon'/>, 'TypeScript'],
     [<SiRedux className='hover:text-reduxIcon'/>, 'Redux Toolkit'],
     [<AiFillGithub className='hover:text-white hover:bg-black rounded-full border-none'/>, 'Git'],
