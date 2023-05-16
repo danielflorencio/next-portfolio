@@ -1,6 +1,6 @@
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
 import type { AppProps } from 'next/app'
-import dotenv from 'dotenv'
+const dotenv = require('dotenv')
 import '../styles/globals.css'
 
 dotenv.config()
