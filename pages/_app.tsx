@@ -1,11 +1,11 @@
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
 import type { AppProps } from 'next/app'
-const dotenv = require('dotenv')
+// const dotenv = require('dotenv')
 import '../styles/globals.css'
 
-dotenv.config()
+// dotenv.config()
 
-const token = process.env.GITHUB_TOKEN
+const token = process.env.GITHUB_KEY
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
