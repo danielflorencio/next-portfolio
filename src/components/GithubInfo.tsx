@@ -93,19 +93,19 @@ export default function GithubInfo(){
                 <div className='flex flex-col justify-center items-center'>
                     <div className='text-lg font-semibold'>Commits in the last 12 months</div>
                     <div className='border-solid border-x-2 border-slate-400 rounded-full text-2xl h-48 w-48 flex items-center justify-center mt-8'>
-                        {commits && commits} ++
+                        {commits ? null || undefined : 400} ++
                     </div>
                 </div>
                 <div className='flex flex-col justify-center items-center'>
                     <div className='text-lg font-semibold'>Highest streak</div>
                     <div className='border-solid border-x-2 border-slate-400 rounded-full text-2xl h-48 w-48 flex items-center justify-center mt-8'>
-                        {streak && streak}
+                        {streak ? null || undefined : 64}
                     </div>
                 </div>
                 <div className='flex flex-col justify-center items-center'>
                     <div className='text-lg font-semibold'>Total Contributed repos</div>
                     <div className='border-solid border-x-2 border-slate-400 rounded-full text-2xl h-48 w-48 flex items-center justify-center mt-8'>
-                        {repos && repos} ++
+                        {repos ? null || undefined : 20} ++
                     </div>
                 </div>
             </div>
